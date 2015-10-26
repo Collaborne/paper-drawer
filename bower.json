@@ -1,0 +1,29 @@
+{
+  "name": "paper-drawer",
+  "version": "1.0.",
+  "authors": [
+    "collaborne"
+  ],
+  "description": "A Material Design drawer (Polymer 1.x)",
+  "main": "paper-drawer.html",
+  "keywords": [
+    "web-components",
+    "polymer",
+    "paper",
+    "material design",
+    "drawer",
+    "menu"
+  ],
+  "license": "Apache 2",
+  "homepage": "http://www.apache.org/licenses/LICENSE-2.0",
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
+    "iron-icons": "PolymerElements/iron-icons#^1.0.0",
+    "paper-item": "PolymerElements/paper-item#^1.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^1.0.0"
+  }
+}

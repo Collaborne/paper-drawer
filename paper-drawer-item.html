@@ -1,0 +1,30 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-item/paper-item.html">
+<link rel="import" href="../paper-styles/paper-styles.html">
+
+<dom-module id="paper-drawer-item">
+
+	<template>
+	
+		<style>
+			.item {
+				opacity: var(--dark-primary-opacity);
+				@apply(--paper-font-body1);
+			}
+		</style>
+
+		<paper-item class='item'><content></content></paper-item>
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-drawer-item'
+	});
+
+})();
+
+</script>

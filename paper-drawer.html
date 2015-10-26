@@ -1,0 +1,30 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="paper-drawer">
+
+	<template>
+	
+		<style>
+			.scroll {
+				-webkit-overflow-scrolling: touch;
+	      		overflow-y: auto;
+			}
+		</style>
+
+		<div class='scroll fit'>
+			<content></content>
+		</div>
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-drawer'
+	});
+
+})();
+
+</script>

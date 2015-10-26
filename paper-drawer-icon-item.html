@@ -1,0 +1,41 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../iron-icon/iron-icon.html">
+<link rel="import" href="../paper-item/paper-icon-item.html">
+<link rel="import" href="../paper-styles/paper-styles.html">
+
+<dom-module id="paper-drawer-icon-item">
+
+	<template>
+	
+		<style>
+			.item {
+				opacity: var(--dark-primary-opacity);
+				@apply(--paper-font-body1);
+			}
+
+			.icon {
+				opacity: var(--dark-secondary-opacity);
+			}
+		</style>
+
+		<paper-icon-item class='item'>
+			<iron-icon class='icon' icon=[[icon]] item-icon></iron-icon>
+			<content></content>
+		</paper-icon-item>
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-drawer-icon-item',
+		properties: {
+			icon: String
+		}
+	});
+
+})();
+
+</script>

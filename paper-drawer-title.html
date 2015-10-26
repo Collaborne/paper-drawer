@@ -1,0 +1,55 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-styles/paper-styles.html">
+
+<dom-module id="paper-drawer-title">
+
+	<template>
+	
+		<style>
+			:host {
+				display: block;
+				padding: 16px 16px 0 16px;
+				background: var(--paper-drawer-title-background-color, black);
+			}
+		
+			.photo {
+				height: 60px;
+				width: 60px;
+				border-radius: 50%;
+			}
+			
+			.sub-title {
+				background: var(--paper-drawer-title-color, white);
+				min-height: 56px;
+				@apply(--layout-vertical);
+				@apply(--layout-center-justified);
+				@apply(--layout-flex);
+				@apply(--paper-font-body1);
+			}
+		</style>
+
+		<div><img src=[[photo]] class='photo'></img></div>
+		<div class='sub-title'>
+			<div>[[name]]</div>
+			<div>[[email]]</div>
+		</div>
+		
+	</template>
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-drawer-title',
+		properties: {
+			photo: String,
+			name: String,
+			email: String
+		}
+	});
+
+})();
+
+</script>
