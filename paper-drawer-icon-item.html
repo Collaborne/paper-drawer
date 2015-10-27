@@ -2,6 +2,7 @@
 <link rel="import" href="../iron-icon/iron-icon.html">
 <link rel="import" href="../paper-item/paper-icon-item.html">
 <link rel="import" href="../paper-styles/paper-styles.html">
+<link rel="import" href="../paper-ripple/paper-ripple.html">
 
 <dom-module id="paper-drawer-icon-item">
 
@@ -11,6 +12,8 @@
 			.item {
 				opacity: var(--dark-primary-opacity);
 				@apply(--paper-font-body1);
+				--dark-divider-opacity: 0;
+				position: relative;
 			}
 
 			.icon {
@@ -19,6 +22,7 @@
 		</style>
 
 		<paper-icon-item class='item'>
+			<paper-ripple fit></paper-ripple>
 			<iron-icon class='icon' icon=[[icon]] item-icon></iron-icon>
 			<content></content>
 		</paper-icon-item>

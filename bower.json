@@ -1,6 +1,6 @@
 {
   "name": "paper-drawer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     "collaborne"
   ],
@@ -24,6 +24,7 @@
     "iron-icon": "PolymerElements/iron-icon#^1.0.0",
     "iron-icons": "PolymerElements/iron-icons#^1.0.0",
     "paper-item": "PolymerElements/paper-item#^1.0.0",
+    "paper-ripple": "PolymerElements/paper-ripple#^1.0.0",
     "paper-styles": "PolymerElements/paper-styles#^1.0.0"
   }
 }

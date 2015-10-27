@@ -1,5 +1,6 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../paper-item/paper-item.html">
+<link rel="import" href="../paper-ripple/paper-ripple.html">
 <link rel="import" href="../paper-styles/paper-styles.html">
 
 <dom-module id="paper-drawer-item">
@@ -10,10 +11,12 @@
 			.item {
 				opacity: var(--dark-primary-opacity);
 				@apply(--paper-font-body1);
+				--dark-divider-opacity: 0;
+				position: relative;
 			}
 		</style>
 
-		<paper-item class='item'><content></content></paper-item>
+		<paper-item class='item'><paper-ripple fit></paper-ripple><content></content></paper-item>
 	</template>
 </dom-module>
 
