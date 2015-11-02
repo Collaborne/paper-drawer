@@ -3,6 +3,8 @@ paper-drawer [![Bower version](https://badge.fury.io/bo/paper-drawer.svg)](http:
 
 `paper-drawer` provides components to build a material design [drawer](https://www.google.com/design/spec/patterns/navigation-drawer.html). The web component is built with [Polymer 1.x](https://www.polymer-project.org).
 
+The components are designed to be used in combination with [`paper-drawer-panel`](https://github.com/PolymerElements/paper-drawer-panel).
+
 ![Screenshot](/doc/screenshot.png "Screenshot")
 
 
