@@ -45,6 +45,7 @@ Style                                 | Description
 ------------------------------------- | ------------
 --paper-drawer-title-background-color | Background color of the title area
 --paper-drawer-title-color            | Font color of the name and email
+--paper-drawer-title                  | Mix-in applied to the title area
 
 These properties are available for `paper-drawer-icon-item`:
 
