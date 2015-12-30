@@ -1,3 +1,6 @@
+_[Demo and API Docs](http://collaborne.github.io/paper-drawer)_
+
+
 paper-drawer [![Bower version](https://badge.fury.io/bo/paper-drawer.svg)](http://badge.fury.io/bo/paper-drawer)
 =========
 
