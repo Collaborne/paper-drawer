@@ -7,8 +7,7 @@ The components are designed to be used in combination with [`paper-drawer-panel`
 
 ![Screenshot](/doc/screenshot.png "Screenshot")
 
-
-## Usage
+To use the elements:
 
 `bower install paper-drawer`
 
@@ -29,29 +28,6 @@ The components are designed to be used in combination with [`paper-drawer-panel`
   <paper-drawer-item>Spam</paper-drawer-item>
 </paper-drawer>
 ```
-
-
-## Properties & styles
-
-These properties are available for `paper-drawer-title`:
-
-Property  | Type   | Description
---------- | ------ | --------------
-**photo** | String | URL to the photo of the person
-**name**  | String | Name of the person
-**email** | String | Email of the person
-
-Style                                 | Description
-------------------------------------- | ------------
---paper-drawer-title-background-color | Background color of the title area
---paper-drawer-title-color            | Font color of the name and email
---paper-drawer-title                  | Mix-in applied to the title area
-
-These properties are available for `paper-drawer-icon-item`:
-
-Property | Type    | Description
--------- | ------- | ----------------------------
-**icon** | String  | Icon that is shown next to the content
 
 
 ## License

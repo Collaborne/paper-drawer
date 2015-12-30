@@ -4,6 +4,11 @@
 <link rel="import" href="../paper-styles/paper-styles.html">
 <link rel="import" href="../paper-ripple/paper-ripple.html">
 
+<!--
+Item in the drawer with an icon
+
+@demo demo/index.html
+-->
 <dom-module id="paper-drawer-icon-item">
 
 	<template>
@@ -35,6 +40,9 @@
 	Polymer({
 		is: 'paper-drawer-icon-item',
 		properties: {
+			/**
+			 * Icon that is shown next to the content
+			 */
 			icon: String
 		}
 	});

@@ -1,6 +1,20 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../paper-styles/paper-styles.html">
 
+<!--
+Title section of the drawer
+
+### Styling
+
+Style                                 | Description
+------------------------------------- | ------------
+--paper-drawer-title-background-color | Background color of the title area
+--paper-drawer-title-color            | Font color of the name and email
+--paper-drawer-title                  | Mix-in applied to the title area
+
+@demo demo/index.html
+
+-->
 <dom-module id="paper-drawer-title">
 
 	<template>
@@ -45,8 +59,19 @@
 	Polymer({
 		is: 'paper-drawer-title',
 		properties: {
+			/**
+			 * URL to the photo of the person
+			 */
 			photo: String,
+			
+			/**
+			 * Name of the person
+			 */
 			name: String,
+			
+			/**
+			 * Email of the person
+			 */
 			email: String
 		}
 	});
