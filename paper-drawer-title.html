@@ -1,3 +1,4 @@
+<!doctype html>
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../paper-styles/paper-styles.html">
 
@@ -18,7 +19,7 @@ Style                                 | Description
 <dom-module id="paper-drawer-title">
 
 	<template>
-	
+
 		<style>
 			:host {
 				display: block;
@@ -26,13 +27,13 @@ Style                                 | Description
 				background: var(--paper-drawer-title-background-color, black);
 				@apply(--paper-drawer-title);
 			}
-		
+
 			.photo {
 				height: 60px;
 				width: 60px;
 				border-radius: 50%;
 			}
-			
+
 			.sub-title {
 				color: var(--paper-drawer-title-color, white);
 				min-height: 56px;
@@ -43,12 +44,12 @@ Style                                 | Description
 			}
 		</style>
 
-		<div><img src=[[photo]] class="photo"></img></div>
+		<div><img src="[[photo]]" class="photo"></img></div>
 		<div class="sub-title">
 			<div>[[name]]</div>
 			<div>[[email]]</div>
 		</div>
-		
+
 	</template>
 </dom-module>
 
@@ -63,12 +64,12 @@ Style                                 | Description
 			 * URL to the photo of the person
 			 */
 			photo: String,
-			
+
 			/**
 			 * Name of the person
 			 */
 			name: String,
-			
+
 			/**
 			 * Email of the person
 			 */
