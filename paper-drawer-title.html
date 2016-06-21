@@ -44,12 +44,18 @@ Style                                 | Description
 				@apply(--layout-flex);
 				@apply(--paper-font-body1);
 			}
+
+			.name,.email {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
 		</style>
 
 		<div><img src="[[photo]]" class="photo" /></div>
 		<div class="sub-title">
-			<div>[[name]]</div>
-			<div>[[email]]</div>
+			<div class="name">[[name]]</div>
+			<div class="email">[[email]]</div>
 		</div>
 
 	</template>
