@@ -1,9 +1,12 @@
-language: node_js
+dist: trusty
 sudo: false
+group: beta
+
+language: node_js
 node_js:
 - node
 addons:
-  firefox: '42.0'
+  firefox: '49.0.2'
 cache:
   directories:
   - node_modules
