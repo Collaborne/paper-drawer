@@ -3,7 +3,7 @@
   "authors": [
     "collaborne"
   ],
-  "description": "A Material Design drawer (Polymer 2.x)",
+  "description": "A Material Design drawer (Polymer)",
   "main": "paper-drawer.html",
   "keywords": [
     "web-components",

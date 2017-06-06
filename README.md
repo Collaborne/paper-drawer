@@ -4,7 +4,7 @@ _[Demo and API Docs](http://collaborne.github.io/paper-drawer)_
 paper-drawer [![Bower version](https://badge.fury.io/bo/paper-drawer.svg)](http://badge.fury.io/bo/paper-drawer) [![Travis state](https://travis-ci.org/Collaborne/paper-drawer.svg?branch=master)](https://travis-ci.org/Collaborne/paper-drawer)
 =========
 
-`paper-drawer` provides components to build a material design [drawer](https://www.google.com/design/spec/patterns/navigation-drawer.html). The web component is built with [Polymer 2.x](https://www.polymer-project.org).
+`paper-drawer` provides components to build a material design [drawer](https://www.google.com/design/spec/patterns/navigation-drawer.html). The web component is built with [Polymer](https://www.polymer-project.org).
 
 The components are designed to be used in combination with [`paper-drawer-panel`](https://github.com/PolymerElements/paper-drawer-panel).
 
