@@ -1,22 +1,34 @@
-_[Demo and API Docs](http://collaborne.github.io/paper-drawer)_
-
-
-paper-drawer [![Bower version](https://badge.fury.io/bo/paper-drawer.svg)](http://badge.fury.io/bo/paper-drawer) [![Travis state](https://travis-ci.org/Collaborne/paper-drawer.svg?branch=master)](https://travis-ci.org/Collaborne/paper-drawer)
+paper-drawer [![Bower version](https://badge.fury.io/bo/paper-drawer.svg)](http://badge.fury.io/bo/paper-drawer) [![Travis state](https://travis-ci.org/Collaborne/paper-drawer.svg?branch=master)](https://travis-ci.org/Collaborne/paper-drawer) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-drawer)
 =========
 
 `paper-drawer` provides components to build a material design [drawer](https://www.google.com/design/spec/patterns/navigation-drawer.html). The web component is built with [Polymer](https://www.polymer-project.org).
 
 The components are designed to be used in combination with [`paper-drawer-panel`](https://github.com/PolymerElements/paper-drawer-panel).
 
-![Screenshot](/doc/screenshot.png "Screenshot")
-
 To use the elements:
 
 `bower install paper-drawer`
 
+<!--
+```
+<custom-element-demo>
+  <template>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../iron-icons/iron-icons.html">
+    <link rel="import" href="paper-drawer.html">
+    <link rel="import" href="paper-drawer-title.html">
+    <link rel="import" href="paper-drawer-subheader.html">
+    <link rel="import" href="paper-drawer-icon-item.html">
+    <link rel="import" href="paper-drawer-divider.html">
+    <link rel="import" href="paper-drawer-item.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
 ```html
 <paper-drawer>
-  <paper-drawer-title photo="face.png" name="Jonathan Lee" email="heyfromjonathan@gmail.com"></paper-drawer-title>
+  <paper-drawer-title photo="demo/face.png" name="Jonathan Lee" email="heyfromjonathan@gmail.com"></paper-drawer-title>
   
   <paper-drawer-subheader>Items with icon</paper-drawer-subheader>
   <paper-drawer-icon-item icon="icons:mail">All mail</paper-drawer-icon-item>
