@@ -53,7 +53,7 @@ Style                                 | Description
 			}
 		</style>
 
-		<img src="[[photo]]" class="photo" />
+		<img src="[[_emptyIfUndefined(photo)]]" class="photo" />
 		<div class="sub-title">
 			<div class="name">[[name]]</div>
 			<div class="email">[[email]]</div>
@@ -82,8 +82,12 @@ Style                                 | Description
 			/**
 			 * Email of the person
 			 */
-			email: String
-		}
+			email: String,
+		},
+
+		_emptyIfUndefined: function(photo) {
+			return photo || '';
+		},
 	});
 
 })();
