@@ -1,4 +1,7 @@
 paper-drawer [![Bower version](https://badge.fury.io/bo/paper-drawer.svg)](http://badge.fury.io/bo/paper-drawer) [![Travis state](https://travis-ci.org/Collaborne/paper-drawer.svg?branch=master)](https://travis-ci.org/Collaborne/paper-drawer) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-drawer)
+
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepaper-drawer)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepaper-drawer.svg)](https://vaadin.com/directory/component/Collabornepaper-drawer)
 =========
 
 `paper-drawer` provides components to build a material design [drawer](https://www.google.com/design/spec/patterns/navigation-drawer.html). The web component is built with [Polymer](https://www.polymer-project.org).
