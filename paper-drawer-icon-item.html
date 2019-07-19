@@ -33,7 +33,7 @@ Item in the drawer with an icon
 
 		<paper-icon-item class="item" role="menuitem">
 			<paper-ripple></paper-ripple>
-			<iron-icon class="icon" icon="[[icon]]" slot="item-icon"></iron-icon>
+			<iron-icon class="icon" icon="[[icon]]" src="[[src]]" slot="item-icon"></iron-icon>
 			<slot></slot>
 		</paper-icon-item>
 	</template>
@@ -49,7 +49,12 @@ Item in the drawer with an icon
 			/**
 			 * Icon that is shown next to the content
 			 */
-			icon: String
+			icon: String,
+			/**
+			 * URL of an individual icon image file.
+			 * Note that it will take precedence over a given `icon` attribute.
+			 */
+			src: String
 		}
 	});
 
